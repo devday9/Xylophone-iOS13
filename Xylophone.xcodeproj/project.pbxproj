@@ -73,13 +73,9 @@
 		AD937BF422C61DBB002E2D88 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
-				AD937BF522C61DBB002E2D88 /* AppDelegate.swift */,
-				AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */,
 				AD937BF922C61DBB002E2D88 /* ViewController.swift */,
 				AD937BFB22C61DBB002E2D88 /* Main.storyboard */,
-				AD937BFE22C61DBE002E2D88 /* Assets.xcassets */,
-				ADE587EA22CB5121007F0F9A /* LaunchScreen.storyboard */,
-				AD937C0322C61DBE002E2D88 /* Info.plist */,
+				C32A4BAE25D1E7D9006FD1CB /* Resources */,
 				ADE587FA22CB5141007F0F9A /* Sounds */,
 			);
 			path = Xylophone;
@@ -97,6 +93,18 @@
 				ADE587F122CB513D007F0F9A /* B.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C32A4BAE25D1E7D9006FD1CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD937BF522C61DBB002E2D88 /* AppDelegate.swift */,
+				AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */,
+				AD937BFE22C61DBE002E2D88 /* Assets.xcassets */,
+				ADE587EA22CB5121007F0F9A /* LaunchScreen.storyboard */,
+				AD937C0322C61DBE002E2D88 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
